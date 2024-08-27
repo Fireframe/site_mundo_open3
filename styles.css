@@ -1,0 +1,382 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+header .logo img {
+    height: 60px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.signup-btn {
+    background-color: #358271;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f8f9fa;
+}
+
+.hero-content {
+    max-width: 50%;
+    color: #0bb2ff;
+}
+
+.hero-content h1 {
+    color: #0bb2ff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #358271;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.monitoring-solutions {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.monitoring-solutions .solutions-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.solution-item {
+    flex: 1 1 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.features-overview {
+    padding: 50px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feature-item {
+    flex: 1 1 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.resilient-cloud {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.cloud-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.option-item {
+    flex: 1 1 45%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.video-overview {
+    padding: 50px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+}
+
+.testimonials {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimonial-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial-item img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.pricing {
+    padding: 50px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.pricing-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.pricing-item {
+    flex: 1 1 30%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pricing-item .price {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.pricing-item .price span {
+    font-size: 16px;
+    color: #888;
+}
+
+.pricing-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pricing-item ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.pricing-item .cta-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #358271;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.pricing-item.popular {
+    border: 2px solid #358271;
+}
+
+.pricing-item.popular .price {
+    color: #0bb2ff;
+}
+
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 50px;
+    text-align: left;
+}
+
+
+/* Estilos específicos para a tela de cadastro */
+.registration-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.registration-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.registration-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.form-field {
+    margin-bottom: 20px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #358271;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.submit-btn:hover {
+    background-color: #358271;
+}
+
+.registration-box p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registration-box p a {
+    color: #358271;
+    text-decoration: none;
+}
+
+.registration-box p a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos específicos para a tela de login */
+.signin-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.signin-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.signin-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.primary-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #358271;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.primary-btn:hover {
+    background-color: #358271;
+}
+
+.signin-box p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signin-box p a {
+    color: #358271;
+    text-decoration: none;
+}
+
+.signin-box p a:hover {
+    text-decoration: underline;
+}

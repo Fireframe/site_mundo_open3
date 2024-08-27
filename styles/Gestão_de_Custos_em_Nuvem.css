@@ -1,0 +1,219 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 1.5rem;
+}
+
+header nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #1a73e8;
+}
+
+header .signup-btn {
+    background-color: #1a73e8;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+header .signup-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Hero Section */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 2rem;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content .cta-btn {
+    display: inline-block;
+    background-color: #ff5252;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.hero-content .cta-btn:hover {
+    background-color: #d32f2f;
+}
+
+/* Seção Principal */
+.info-section {
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: -3rem;
+    position: relative;
+    z-index: 1;
+}
+
+.info-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #1a73e8;
+}
+
+.info-section p {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.info-section .info-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.info-section .info-content ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.info-section .info-content ul li {
+    font-size: 1.125rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Grid Containers */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.grid-item {
+    background-color: #f7f9fc;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.grid-item h4 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #1a73e8;
+}
+
+.grid-item p {
+    font-size: 1.125rem;
+    color: #555;
+}
+
+/* Seção de Benefícios */
+.benefits-section {
+    padding: 4rem 2rem;
+    background-color: #f4f6f9;
+}
+
+.benefits-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #1a73e8;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    text-align: center;
+}
+
+.benefit-item {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.benefit-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.benefit-item p {
+    font-size: 1.125rem;
+    color: #555;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1a73e8;
+    padding: 2rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer p {
+    font-size: 1rem;
+}
